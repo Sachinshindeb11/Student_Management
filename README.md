@@ -30,6 +30,9 @@ This project allows users to perform full CRUD operations (Create, Read, Update,
 
 1️⃣ Clone the Repository
 
+```bash
+git clone https://github.com/Sachinshindeb11/Student_Management.git
+
 2️⃣ Import Project in Eclipse
 Open Eclipse
 
