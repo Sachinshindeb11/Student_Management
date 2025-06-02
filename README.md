@@ -34,13 +34,15 @@ This project allows users to perform full CRUD operations (Create, Read, Update,
 git clone https://github.com/Sachinshindeb11/Student_Management.git
 ```
 2️⃣ Import Project in Eclipse
-Open Eclipse
+   
+## Steps to Import Project
 
-Go to File → Import → Existing Projects into Workspace
+- Open Eclipse IDE
+- Go to `File → Import → Existing Projects into Workspace`
+- Select the folder `Student_Management`
+- Click `Finish`
+- Right-click on project → `Run As` → `Run on Server`
 
-Select the cloned folder
-
-Click Finish
 
 3️⃣ Set Up MySQL Database
 Open MySQL or any SQL tool and run the following:
