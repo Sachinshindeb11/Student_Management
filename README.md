@@ -28,20 +28,22 @@ This project allows users to perform full CRUD operations (Create, Read, Update,
 
 ## 📂 Project Setup Instructions
 
-1️⃣ Clone the Repository
+1️⃣ ** Clone the Repository
 
 ```bash
 git clone https://github.com/Sachinshindeb11/Student_Management.git
 ```
-2️⃣ Import Project in Eclipse
    
-## Steps to Import Project
+## 2️⃣ 🧩 Import Spring Boot Project in Eclipse
 
-- Open Eclipse IDE
-- Go to `File → Import → Existing Projects into Workspace`
-- Select the folder `Student_Management`
-- Click `Finish`
-- Right-click on project → `Run As` → `Run on Server`
+- Open **Eclipse IDE**
+- Go to: `File → Import → Maven → Existing Maven Projects`
+- Click **Next**
+- Browse to the cloned folder `Student_Management`
+- Select the root folder that contains `pom.xml`
+- Click **Finish**
+- Wait for Maven dependencies to resolve (Internet required)
+
 
 
 3️⃣ Set Up MySQL Database
