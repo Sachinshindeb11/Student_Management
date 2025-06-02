@@ -46,18 +46,37 @@ git clone https://github.com/Sachinshindeb11/Student_Management.git
 
 
 
-3️⃣ Set Up MySQL Database
+## 3️⃣ Set Up MySQL Database
 Open MySQL or any SQL tool and run the following:
 
-4️⃣ Configure DB Connection
-Locate your DBConnection.java (or similar) file and update with your local DB credential
+CREATE DATABASE studentdb;
 
-5️⃣ Run on Apache Tomcat Server
+USE studentdb;
+
+CREATE TABLE students (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100),
+  email VARCHAR(100),
+  phone VARCHAR(15)
+);
+
+
+## 4️⃣ Configure DB Connection
+Update your application.properties or application.yml with your database credentials:
+spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+
+
+
+## 5️⃣ Run the Spring Boot application
+
+Right-click on the project in Project Explorer
+
+Select Run As → Spring Boot App
 Right-click project → Run As → Run on Server
 
-Choose Apache Tomcat
-
-Application will deploy and run on:
 
 🤝 Contribution
 Contributions, issues, and feature requests are welcome!
