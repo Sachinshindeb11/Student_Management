@@ -72,15 +72,17 @@ spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
-
+```
 
 
 ## 5️⃣ Run the Spring Boot application
 
-Right-click on the project in Project Explorer
+- **Right-click** on the project in **Project Explorer**
+- Select `Run As → Spring Boot App`
+- **Open your browser and go to:**
+-- http://localhost:8080/
 
-Select Run As → Spring Boot App
-Right-click project → Run As → Run on Server
+
 
 
 🤝 Contribution
