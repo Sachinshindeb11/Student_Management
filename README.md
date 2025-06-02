@@ -64,7 +64,10 @@ CREATE TABLE students (
 
 
 ## 4️⃣ Configure DB Connection
-Update your application.properties or application.yml with your database credentials:
+
+- Update your `application.properties` or `application.yml` file with your database credentials:
+
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
 spring.datasource.username=root
 spring.datasource.password=your_password
