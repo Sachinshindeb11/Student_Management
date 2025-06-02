@@ -28,7 +28,7 @@ This project allows users to perform full CRUD operations (Create, Read, Update,
 
 ## 📂 Project Setup Instructions
 
-1️⃣ ** Clone the Repository
+## 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Sachinshindeb11/Student_Management.git
