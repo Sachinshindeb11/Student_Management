@@ -86,12 +86,12 @@ spring.jpa.hibernate.ddl-auto=update
 
 
 🤝 Contribution
-Contributions, issues, and feature requests are welcome!
-Feel free to fork the repo and submit a pull request.
+-- Contributions, issues, and feature requests are welcome!
+-- Feel free to fork the repo and submit a pull request.
 
 📃 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
+-- This project is licensed under the MIT License.
+-- See the LICENSE file for more details.
 
 👤 Author
 Sachin Shinde
