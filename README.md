@@ -47,8 +47,9 @@ git clone https://github.com/Sachinshindeb11/Student_Management.git
 
 
 ## 3️⃣ Set Up MySQL Database
-Open MySQL or any SQL tool and run the following:
+- Create the MySQL database and table by running the following SQL commands:
 
+```sql
 CREATE DATABASE studentdb;
 
 USE studentdb;
@@ -59,6 +60,7 @@ CREATE TABLE students (
   email VARCHAR(100),
   phone VARCHAR(15)
 );
+```
 
 
 ## 4️⃣ Configure DB Connection
